@@ -1,0 +1,85 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;    
+}
+
+.header{
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(251, 194, 235, 0.514) 0%, rgba(166, 192, 238, 0.5) 100%)
+  , url(./Pro\ 1.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1.titulo{
+  font-size: 70px;
+  color: black;
+}
+
+.head{
+  text-align: center;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+/*
+Codigo del contenido de la pagina
+*/
+
+span.navbar-text{
+  float: right;
+  }
+  
+  section.content{
+    margin: 50px;
+    padding: 20px;
+    width: 70%;
+    height: auto;
+    background-color: whitesmoke;
+  }
+  
+  .img-fluid{
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  div.card{
+    padding: 5px;
+  }
+  aside{
+    padding: 30px;
+  }
+  
+  a.card-title{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+  }
+  
+  .card-img-top{
+    width: 100%;
+    height: auto;
+  }
+  
+  footer{
+    margin: 0px;
+    background-color: rgb(2, 114, 114);
+    padding: 0px;
+    color: white;
+  }

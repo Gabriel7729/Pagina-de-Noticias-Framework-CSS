@@ -1,0 +1,81 @@
+span.navbar-text{
+float: right;
+}
+
+section.content{
+  margin: 50px;
+  padding: 20px;
+}
+
+.img-fluid{
+  max-width: 100%; 
+  height: auto;
+}
+
+div.card{
+  padding: 5px;
+}
+aside{
+  padding: 30px;
+}
+
+a.card-title{
+  font-size: 20px;
+  color:rgb(0, 0, 0);
+}
+
+.card-img-top{
+  width: 100%;
+  height: auto;
+}
+
+footer{
+  margin: 0px;
+  background-color: rgb(2, 114, 114);
+  padding: 0px;
+  color: white;
+}
+
+.Slider{
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.Slider ul{
+  padding: 0;
+  display: flex;
+  width: 400%;
+
+  animation: Cambio 20s infinite alternate linear;
+}
+
+.Slider li {
+  width: 50%;  
+  list-style: none;
+}
+
+.Slider img {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(251, 194, 235, 0.514) 0%, rgba(166, 192, 238, 0.5) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@keyframes Cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+
+}

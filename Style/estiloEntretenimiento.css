@@ -1,0 +1,87 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+:root{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;    
+}
+
+.header{
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(251, 194, 235, 0.514) 0%, rgba(166, 192, 238, 0.5) 100%)
+  , url(./Portadas\ Menu/Portada\ Categoria\ Entretenimiento.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1.titulo{
+  font-size: 50px;
+  color: white;
+}
+
+.head{
+  text-align: center;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+/*
+Codigo del contenido de la pagina
+*/
+
+span.navbar-text{
+  float: right;
+  }
+  
+  section.content{
+    width: 70%;
+    height: auto;
+    margin: 2em;
+    padding: 2em 5%;
+    background-color: whitesmoke;
+  }
+
+  .card-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-text{
+    font-size: 1rem;
+  }
+
+  .card-title{
+    font-size: 2rem;
+  }
+
+  aside{
+    padding: 2em;
+    margin: 2em;
+    float: right;
+  }
+  
+  a.card-title{
+    font-size: 1.3rem;
+    color:rgb(0, 0, 0);
+  }
+  
+  footer{
+    margin: 0px;
+    background-color: rgb(2, 114, 114);
+    padding: 0px;
+    color: white;
+  }
